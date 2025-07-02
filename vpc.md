@@ -119,7 +119,8 @@ Create and configure a Virtual Private Cloud (VPC) with public and private subne
 #### Setup Private Key on Bastion Host
 ```bash
 # Create private key file
-nano aws_privatekey_ec2.pem
+scp /path/to/local/file.txt username@remote_ip:/path/to/remote/destination/
+
 
 # Paste your private key content here, then save
 
